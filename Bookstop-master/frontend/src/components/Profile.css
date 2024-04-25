@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-card{
+    width: 1200px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.829);
+    display: in-flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+    overflow: hidden ;
+    margin: auto;
+    margin-top: 50px;
+}
+.card-header{
+    background:white;
+    margin: auto;
+    padding: 60px 40px;
+    margin-top: 50px;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: inherit;
+}
+.pic{
+    display: inline-block;
+    padding: 8px;
+    background: linear-gradient(130deg,#74b9ff,#e66767);
+    margin:auto;
+    border-radius: 50%;
+    background-size: 200% 200%;
+}
+.pic img{
+    display: block;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.card-header>h3{
+    color:rgb(3, 3, 3);
+    font-size: 28px;
+    font-weight: 600;
+    margin:10px 0;
+}
+.myTopBooks{
+    margin-top:35px;
+
+}
+.myTopBooks>h4{
+
+}
+.myTopBooks>Carousel{
+    margin-top: 25px;
+}

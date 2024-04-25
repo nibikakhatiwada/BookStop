@@ -1,0 +1,12 @@
+.b_container{
+    background-color: green;
+    width: 400px;
+    height: 25%;
+    margin:auto;
+    margin-top: 50px;
+}
+@media only screen and (max-width: 600px) {
+    .b_container{
+        width: 250px;
+    }
+}

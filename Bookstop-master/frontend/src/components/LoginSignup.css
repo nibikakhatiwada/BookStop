@@ -1,0 +1,57 @@
+
+.LoginSignUpContainer{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    margin-left:38%;
+    margin-right:38%;
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    border-radius: 5px;
+}
+.loginForm,
+.signUpForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 2vmax;
+    justify-content: space-evenly;
+    height: 70%;
+    transition: all 0.5s;
+}
+.loginForm>div>input,
+.signUpForm>div>input {
+    padding: 1vmax 4vmax;
+    padding-right: 1vmax;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    font: 300 0.9vmax cursive;
+    outline: none;
+}
+.loginEmail,
+.loginPassword{
+    padding:6px 0;;
+}
+.loginBtn,
+.signUpBtn {
+    border: none;
+    background-color: rgb(13, 3, 1);
+    color: white;
+    font: 300 0.9vmax "Roboto";
+    width: 92%;
+    padding: 0.8vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.219);
+}
+
+.loginBtn:hover,
+.signUpBtn:hover {
+    background-color: rgb(33, 32, 31);
+}
